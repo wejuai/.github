@@ -47,7 +47,7 @@
 - service：业务功能
   - dto：在service层面使用的数据传输对象
 - support：第三方服务支持以及使用方式
-- web：对外开放的接口
+- web|controller：对外开放的接口
 - dto：接口层使用的数据传输对象
 
 ##### note
