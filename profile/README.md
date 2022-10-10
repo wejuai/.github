@@ -20,7 +20,7 @@
 ### 主要技术介绍
 - 主要语言：java
 - 框架：spring生态
-- 构建工具：gradle
+- 构建工具：gradle(7.5)
 - 数据：mysql，mongo，redis
 - 部署：k8s，或者docker compose
 - 内部通讯：spring restTemplate
