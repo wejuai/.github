@@ -41,6 +41,13 @@
 
 ![QQ截图20221009165354](https://user-images.githubusercontent.com/18435332/194747476-4a8731cb-709d-42ba-bd30-ced57adef4ca.png)
 
+### 项目详细结构
+- config: 配置参数和需要初始化数据库的内容以及基础框架配置
+- repository: 连接数据库的jpa配置，包括mongo和mysql
+- service：业务功能，dto中为在service层面使用的数据传输对象
+- support：第三方服务支持以及使用方式
+- web：对外开放的接口
+
 ##### note
 1. 原来是部署在aliyun的k8s托管集群，宕机检测、自动重启、可用性、扩展性都依赖于此，所以没有使用全套spring cloud
 2. 最初的版本还有网页版本的，但是pc和手机网页便携性低和开发周期长所以放弃了
