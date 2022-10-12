@@ -50,6 +50,9 @@
 - web|controller：对外开放的接口
 - dto：接口层使用的数据传输对象
 
+### 接口文档
+在有`web|controller`文件夹的拥有对外开放api，而且同时有swagger接口文档，访问路径路径为`/swagger-ui/index.html`
+
 ##### note
 1. 原来是部署在aliyun的k8s托管集群，宕机检测、自动重启、可用性、扩展性都依赖于此，所以没有使用全套spring cloud
 2. 最初的版本还有网页版本的，但是pc和手机网页便携性低和开发周期长所以放弃了
